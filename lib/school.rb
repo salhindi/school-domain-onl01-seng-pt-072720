@@ -15,6 +15,8 @@ class School
   end
   
   def sort
-    @roster.sort.flatten
+    @roster = {}
+  
+  {} <<  @roster.sort.flatten
   end
 end
