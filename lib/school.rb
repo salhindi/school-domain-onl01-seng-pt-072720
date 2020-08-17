@@ -15,8 +15,8 @@ class School
   end
   
   def sort
-    @roster = {}
-  
-  {} <<  @roster.sort.flatten
+    hash = {}
+    @roster.keys.sort.each do |level|
+      hash = @roster
   end
 end
